@@ -264,7 +264,7 @@ Resources:
     Type: "AWS::Lambda::Function"
     Properties: 
       Code:
-        S3Bucket: 'codepipeline-codedeploy-example-lambda00'
+        S3Bucket: 'codepipeline-codedeploy-example-lambda-vibha'
         S3Key: 'v2.zip'
       FunctionName: 'codepipeline_http_test'
       Handler: 'index.handler'
